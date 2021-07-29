@@ -257,8 +257,11 @@ section.contents .project ul li a:hover .name span{
 
 /* <!-- section contents > .partner style --> */
 /*flex wrap으로풀고, 가로를 25%씩 줌. */
+
 /* 내가한거 ↓ */
-/* section.contents .partner{
+
+section.contents .partner{
+    /* background: orange; */
     width: 65%;
     margin: 200px auto 60px ;
 }
@@ -267,13 +270,13 @@ section.contents .partner h3{
     font-size: 20px;
 }
 section.contents .partner ul{
-    margin-top: 100px;
-    height: 400px;
+
+    /* background: red; */
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: stretch;
-    margin-left: 120px;
+    margin-left: 30px;
 }
 
 section.contents .partner ul li{
@@ -284,7 +287,7 @@ section.contents .partner ul li img{
 }
 section.contents .partner ul li img:hover{
     opacity: 1;
-} */
+} 
 /* ----------섹션 파트너 부분 해설-------------------- */
 section.contents .partner{
     width: 65%;
